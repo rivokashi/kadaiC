@@ -27,8 +27,8 @@ const clock = () => {
   sec = sec < 10 ? "0" + sec : sec;
 
   // 日付・時刻の文字列を作成
-  let today = `${year}.${month}.${date} ${day}`;
-  let time = `${hour}:${min}:${sec}`;
+  let today = `${year}年${month}月${date}日${day}`;
+  let time = `${hour}時${min}分${sec}秒`;
 
   // 文字列を出力
   document.querySelector(".clock-date").innerText = today;
