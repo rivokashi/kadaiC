@@ -1,5 +1,5 @@
 /* Google Fonts 読み込み */
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 
 /* 全体を囲うコンテナー */
 .container {
@@ -14,7 +14,7 @@
 
 /* 時計の共通スタイル */
 .clock {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Hina Mincho', monospace;
   color: #233d00;
   text-shadow: 0 0 20px #e4ffc2;
   line-height: 1.2;
